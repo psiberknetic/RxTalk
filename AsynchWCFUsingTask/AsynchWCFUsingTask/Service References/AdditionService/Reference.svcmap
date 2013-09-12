@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="50164731-c7ee-45ca-b5f5-51eaaee49d0d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://reactiveextensionsdemoservices.cloudapp.net/AdditionService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AdditionService3.xsd" MetadataType="Schema" ID="5c309b14-e9d9-43a6-9782-bb8a4d198522" SourceId="1" SourceUrl="http://reactiveextensionsdemoservices.cloudapp.net/AdditionService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AdditionService1.wsdl" MetadataType="Wsdl" ID="573c21c8-c508-4e15-9154-dcc545374338" SourceId="1" SourceUrl="http://reactiveextensionsdemoservices.cloudapp.net/AdditionService.svc?wsdl" />
+    <MetadataFile FileName="AdditionService31.xsd" MetadataType="Schema" ID="8343b64b-51e5-471a-af99-4dc93ed35c66" SourceId="1" SourceUrl="http://reactiveextensionsdemoservices.cloudapp.net/AdditionService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AdditionService32.xsd" MetadataType="Schema" ID="4844c06b-40e4-4cb5-8e22-9182e1486656" SourceId="1" SourceUrl="http://reactiveextensionsdemoservices.cloudapp.net/AdditionService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
