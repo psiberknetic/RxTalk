@@ -10,6 +10,7 @@ namespace AsyncWCFService
     {
         private static void Main(string[] args)
         {
+            // A comment
             var additionServiceClient = new AdditionServiceClient();
 
             Console.WriteLine("Starting");
